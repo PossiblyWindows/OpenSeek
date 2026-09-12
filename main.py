@@ -60,9 +60,11 @@ API running on http://localhost:2666
 Have fun! :)
     """)
 
-    api_path = Path(__file__).resolve().parent / "api.py"
+    root_dir = Path(__file__).resolve().parent
+    api_path = root_dir / "api.py"
     process = subprocess.Popen(
         [sys.executable, str(api_path)],
+        cwd=str(root_dir),
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
     )

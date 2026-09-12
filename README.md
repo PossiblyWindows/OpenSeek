@@ -59,11 +59,16 @@ python tooken-check.py
 
 ## Usage
 
-### Run OpenAI API Server (Silent Background)
+### Run OpenAI API Server
+
+You can launch OpenSeek from **any folder or terminal in your system**:
 
 ```bash
-python main.py
+openseek
 ```
+
+*(Alternatively, run `python main.py` inside the repository directory)*
+
 - **Base URL**: `http://localhost:2666/v1`
 - **API Key**: Any dummy string (e.g. `sk-dummy`)
 - **Supported Models**: `deepseek-chat`, `deepseek-reasoner`

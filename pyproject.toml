@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openseek"
+version = "0.1.0"
+description = "OpenSeek API reverse proxy for DeepSeek"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi==0.115.6",
+    "httpx==0.28.1",
+    "python-dotenv==1.0.1",
+    "uvicorn==0.34.0",
+]
+
+[project.scripts]
+openseek = "main:start"
+
+[tool.setuptools]
+py-modules = ["main", "api", "client"]
+packages = ["core"]
