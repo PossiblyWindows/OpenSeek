@@ -147,7 +147,7 @@ async def _stream_with_tools(
 @app.get("/models")
 async def list_models():
     ts = int(time.time())
-    names = ["deepseek-chat", "deepseek-coder", "deepseek-reasoner", "deepseek-v5"]
+    names = ["deepseek-chat", "deepseek-reasoning"]
     return {
         "object": "list",
         "data": [

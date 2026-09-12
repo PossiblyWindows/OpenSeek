@@ -71,7 +71,7 @@ openseek
 
 - **Base URL**: `http://localhost:2666/v1`
 - **API Key**: Any dummy string (e.g. `sk-dummy`)
-- **Supported Models**: `deepseek-chat`, `deepseek-reasoner`
+- **Supported Models**: `deepseek-chat`, `deepseek-reasoner`, `deepseek-reasoning`
 
 ### Interactive Terminal Chat
 
