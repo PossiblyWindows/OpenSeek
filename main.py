@@ -53,6 +53,8 @@ def start():
         print(logo)
     print("""
 Author: Eleferia Labs
+Website: https://openseek.eleferia.xyz
+Telegram: https://t.me/eleferia
 License: MIT
 API running on http://localhost:2666 
 Have fun! :)

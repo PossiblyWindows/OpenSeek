@@ -1,6 +1,8 @@
 # OpenSeek API
 
 <p align="center">
+  <a href="https://openseek.eleferia.xyz"><img src="https://img.shields.io/badge/Website-openseek.eleferia.xyz-blue?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"></a>
+  <a href="https://t.me/eleferia"><img src="https://img.shields.io/badge/Telegram-@eleferia-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/FastAPI-0.115+-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/OpenAI-Compatible-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI Compatible">
@@ -109,6 +111,13 @@ curl http://localhost:2666/v1/chat/completions \
     "messages": [{"role": "user", "content": "Write hello world in Python"}]
   }'
 ```
+
+---
+
+## Community & Links
+
+- 🌐 **Official Website**: [openseek.eleferia.xyz](https://openseek.eleferia.xyz)
+- 📢 **Telegram Channel**: [@eleferia](https://t.me/eleferia)
 
 ---
 
