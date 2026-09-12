@@ -28,8 +28,8 @@ High-performance reverse proxy that bridges DeepSeek's Web Chat API into a 1:1 O
 ### 1. Installation
 
 ```bash
-git clone https://github.com/your-repo/openseek-api.git
-cd openseek-api
+git clone https://github.com/reth-team/OpenSeek.git
+cd OpenSeek
 pip install -r requirements.txt
 ```
 
